@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import useStateAdvanced from "./useStateAdvanced";
+import useStateAdvanced from "use-state-advanced/main/useStateAdvanced";
 
-export default function useLocalStorage(key, value) {
+export default function useStorage(key, value) {
     const [state, setState] = useStateAdvanced(() => {
         const storedValue = localStorage.getItem(key);
         return storedValue ? JSON.parse(storedValue) : value;

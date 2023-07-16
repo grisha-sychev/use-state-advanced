@@ -11,6 +11,8 @@ At the moment there are two hooks these are useStateAdvanced and useLocalStorage
 
 
 ```js
+import { useStateAdvanced } from 'use-state-advanced'
+
 const [state, setState] = useStateAdvanced({ user: { books: { shelf: {...and the like} } } });
 
 setState('user.books.shelf-5.name.garypotter.title', data);
@@ -20,8 +22,11 @@ setState('user.books.shelf-5.name.garypotter.title', data);
 
  
 ```js
+import { useLocalStorage } from 'use-state-advanced'
+
 const [state, setState] = useLocalStorage('myKey', { user: { books: { shelf: {...and the like} } } });
 
 setState('user.books.shelf-5.name.garypotter.title', data);
 // user["books"]["shelf][5]["name"]["garipoter"]["title"]
+```
 ```

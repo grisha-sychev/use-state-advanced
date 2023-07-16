@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function useStateAdvanced(value) {
+export default function useStateUpdate(value) {
     const [state, setState] = useState(value);
 
     function updateState(path, value) {
