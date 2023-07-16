@@ -28,5 +28,3 @@ const [state, setState] = useLocalStorage('myKey', { user: { books: { shelf: {..
 
 setState('user.books.shelf-5.name.garypotter.title', data);
 // user["books"]["shelf][5]["name"]["garipoter"]["title"]
-```
-```
