@@ -1,0 +1,19 @@
+{
+  "name": "use-state-advanced",
+  "version": "1.0.2",
+  "description": "A set of useState hooks and tools",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "useState",
+    "react",
+    "extension",
+    "advanced",
+    "useLocalStorage",
+    "localStorage",
+    "react"
+  ],
+  "author": "Grigory <gisha_sychev@vk.com>",
+  "license": "MIT"
+}
