@@ -16,5 +16,8 @@
     "react"
   ],
   "author": "Grigory <gisha_sychev@vk.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^19.1.7"
+  }
 }
